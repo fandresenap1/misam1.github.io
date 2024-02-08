@@ -1,0 +1,35 @@
+div {
+    padding: 10px; /* Ajoute de l'espace à l'intérieur de chaque div */
+    margin: 10px 0; /* Ajoute de l'espace autour de chaque div */
+}
+
+/* Style pour les images à l'intérieur des divs */
+#tete {
+    max-width: 70%; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
+    height: auto; /* Garantit que l'aspect ratio de l'image est préservé */
+    display: block; /* Élimine l'espace réservé par défaut sous l'image */
+    margin: 0 auto; /* Centre l'image horizontalement dans son conteneur */
+}
+
+#photo {
+    height: 20% ;
+    width: 15% ;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none ; /*Enleve les puces*/
+    padding: 0;
+}
+
+li {
+    display: flex; /* Aligne horizontalement le contenu des éléments li */
+    align-items: center;
+}
+h2 {
+    font-size: 1.3vw;
+}
+
+h4, p {
+    font-size: 1.1vw;
+}
